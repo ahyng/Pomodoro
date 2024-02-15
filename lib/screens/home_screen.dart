@@ -105,6 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onPressed: reset,
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Theme.of(context).cardColor,
+                    padding: const EdgeInsets.all(15),
                   ),
                   child: Text(
                     'reset',
