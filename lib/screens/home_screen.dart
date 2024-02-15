@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: working
           ? Theme.of(context).colorScheme.background
-          : const Color.fromARGB(255, 79, 150, 208),
+          : const Color.fromARGB(255, 71, 130, 179),
       body: Column(children: [
         Flexible(
           flex: 1,
