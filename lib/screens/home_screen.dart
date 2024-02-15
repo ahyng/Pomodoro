@@ -38,7 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
     setState(() {
       isRunning = true;
-      working = true;
     });
   }
 
@@ -53,6 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
     timer.cancel();
     setState(() {
       isRunning = false;
+      working = true;
       totalPomodoros = 0;
       totalSeconds = twentyFiveMinutes;
     });
@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: working
           ? Theme.of(context).colorScheme.background
-          : const Color.fromARGB(255, 91, 167, 229),
+          : const Color.fromARGB(255, 79, 150, 208),
       body: Column(children: [
         Flexible(
           flex: 1,
