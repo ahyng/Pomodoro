@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int totalSeconds = twentyFiveMinutes;
   bool isRunning = false;
   int totalPomodoros = 0;
-  bool working = false;
+  bool working = true;
   late Timer timer;
 
   void onTick(Timer timer) {
